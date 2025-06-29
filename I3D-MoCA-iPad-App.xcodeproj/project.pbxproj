@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A752441F2E0BE6EE003BEC3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A75244092E0BE6ED003BEC3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A75244102E0BE6ED003BEC3A;
+			remoteInfo = "I3D-MoCA-iPad-App";
+		};
+		A75244292E0BE6EE003BEC3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A75244092E0BE6ED003BEC3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A75244102E0BE6ED003BEC3A;
+			remoteInfo = "I3D-MoCA-iPad-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A75244112E0BE6ED003BEC3A /* I3D-MoCA-iPad-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I3D-MoCA-iPad-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A752441E2E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I3D-MoCA-iPad-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75244282E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I3D-MoCA-iPad-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A75244132E0BE6ED003BEC3A /* I3D-MoCA-iPad-App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "I3D-MoCA-iPad-App";
+			sourceTree = "<group>";
+		};
+		A75244212E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "I3D-MoCA-iPad-AppTests";
+			sourceTree = "<group>";
+		};
+		A752442B2E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "I3D-MoCA-iPad-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A752440E2E0BE6ED003BEC3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A752441B2E0BE6EE003BEC3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75244252E0BE6EE003BEC3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A75244082E0BE6ED003BEC3A = {
+			isa = PBXGroup;
+			children = (
+				A75244132E0BE6ED003BEC3A /* I3D-MoCA-iPad-App */,
+				A75244212E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppTests */,
+				A752442B2E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppUITests */,
+				A75244122E0BE6ED003BEC3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A75244122E0BE6ED003BEC3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A75244112E0BE6ED003BEC3A /* I3D-MoCA-iPad-App.app */,
+				A752441E2E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppTests.xctest */,
+				A75244282E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A75244102E0BE6ED003BEC3A /* I3D-MoCA-iPad-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75244322E0BE6EE003BEC3A /* Build configuration list for PBXNativeTarget "I3D-MoCA-iPad-App" */;
+			buildPhases = (
+				A752440D2E0BE6ED003BEC3A /* Sources */,
+				A752440E2E0BE6ED003BEC3A /* Frameworks */,
+				A752440F2E0BE6ED003BEC3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A75244132E0BE6ED003BEC3A /* I3D-MoCA-iPad-App */,
+			);
+			name = "I3D-MoCA-iPad-App";
+			packageProductDependencies = (
+			);
+			productName = "I3D-MoCA-iPad-App";
+			productReference = A75244112E0BE6ED003BEC3A /* I3D-MoCA-iPad-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A752441D2E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75244352E0BE6EE003BEC3A /* Build configuration list for PBXNativeTarget "I3D-MoCA-iPad-AppTests" */;
+			buildPhases = (
+				A752441A2E0BE6EE003BEC3A /* Sources */,
+				A752441B2E0BE6EE003BEC3A /* Frameworks */,
+				A752441C2E0BE6EE003BEC3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A75244202E0BE6EE003BEC3A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A75244212E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppTests */,
+			);
+			name = "I3D-MoCA-iPad-AppTests";
+			packageProductDependencies = (
+			);
+			productName = "I3D-MoCA-iPad-AppTests";
+			productReference = A752441E2E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A75244272E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75244382E0BE6EE003BEC3A /* Build configuration list for PBXNativeTarget "I3D-MoCA-iPad-AppUITests" */;
+			buildPhases = (
+				A75244242E0BE6EE003BEC3A /* Sources */,
+				A75244252E0BE6EE003BEC3A /* Frameworks */,
+				A75244262E0BE6EE003BEC3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A752442A2E0BE6EE003BEC3A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A752442B2E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppUITests */,
+			);
+			name = "I3D-MoCA-iPad-AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "I3D-MoCA-iPad-AppUITests";
+			productReference = A75244282E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A75244092E0BE6ED003BEC3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A75244102E0BE6ED003BEC3A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A752441D2E0BE6EE003BEC3A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A75244102E0BE6ED003BEC3A;
+					};
+					A75244272E0BE6EE003BEC3A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A75244102E0BE6ED003BEC3A;
+					};
+				};
+			};
+			buildConfigurationList = A752440C2E0BE6ED003BEC3A /* Build configuration list for PBXProject "I3D-MoCA-iPad-App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A75244082E0BE6ED003BEC3A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A75244122E0BE6ED003BEC3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A75244102E0BE6ED003BEC3A /* I3D-MoCA-iPad-App */,
+				A752441D2E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppTests */,
+				A75244272E0BE6EE003BEC3A /* I3D-MoCA-iPad-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A752440F2E0BE6ED003BEC3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A752441C2E0BE6EE003BEC3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75244262E0BE6EE003BEC3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A752440D2E0BE6ED003BEC3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A752441A2E0BE6EE003BEC3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75244242E0BE6EE003BEC3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A75244202E0BE6EE003BEC3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A75244102E0BE6ED003BEC3A /* I3D-MoCA-iPad-App */;
+			targetProxy = A752441F2E0BE6EE003BEC3A /* PBXContainerItemProxy */;
+		};
+		A752442A2E0BE6EE003BEC3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A75244102E0BE6ED003BEC3A /* I3D-MoCA-iPad-App */;
+			targetProxy = A75244292E0BE6EE003BEC3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A75244302E0BE6EE003BEC3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 92Y987QD5H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A75244312E0BE6EE003BEC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 92Y987QD5H;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A75244332E0BE6EE003BEC3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92Y987QD5H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.I3D-MoCA-iPad-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A75244342E0BE6EE003BEC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92Y987QD5H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.I3D-MoCA-iPad-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A75244362E0BE6EE003BEC3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92Y987QD5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.I3D-MoCA-iPad-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I3D-MoCA-iPad-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I3D-MoCA-iPad-App";
+			};
+			name = Debug;
+		};
+		A75244372E0BE6EE003BEC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92Y987QD5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.I3D-MoCA-iPad-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I3D-MoCA-iPad-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I3D-MoCA-iPad-App";
+			};
+			name = Release;
+		};
+		A75244392E0BE6EE003BEC3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92Y987QD5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.I3D-MoCA-iPad-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I3D-MoCA-iPad-App";
+			};
+			name = Debug;
+		};
+		A752443A2E0BE6EE003BEC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92Y987QD5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.I3D-MoCA-iPad-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I3D-MoCA-iPad-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A752440C2E0BE6ED003BEC3A /* Build configuration list for PBXProject "I3D-MoCA-iPad-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75244302E0BE6EE003BEC3A /* Debug */,
+				A75244312E0BE6EE003BEC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75244322E0BE6EE003BEC3A /* Build configuration list for PBXNativeTarget "I3D-MoCA-iPad-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75244332E0BE6EE003BEC3A /* Debug */,
+				A75244342E0BE6EE003BEC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75244352E0BE6EE003BEC3A /* Build configuration list for PBXNativeTarget "I3D-MoCA-iPad-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75244362E0BE6EE003BEC3A /* Debug */,
+				A75244372E0BE6EE003BEC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75244382E0BE6EE003BEC3A /* Build configuration list for PBXNativeTarget "I3D-MoCA-iPad-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75244392E0BE6EE003BEC3A /* Debug */,
+				A752443A2E0BE6EE003BEC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A75244092E0BE6ED003BEC3A /* Project object */;
+}
