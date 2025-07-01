@@ -13,17 +13,17 @@ struct AttentionView: View {
     @EnvironmentObject var activityManager: ActivityManager
     
     private let tasks: [TaskItem] = [
-        TaskItem(title: "Task 1", question: "Repeat the numbers in forward order.", imageOne: nil, imageTwo: nil),
-        TaskItem(title: "Task 2", question: "Repeat the numbers in backward order.", imageOne: nil, imageTwo: nil),
-        TaskItem(title: "Task 3", question: "A sequence of numbers will be displayed. Tap the button 'Select Number' each time you see the number 1. Do not select the button when you see a different number.", imageOne: nil, imageTwo: nil),
-        TaskItem(title: "Task 4", question: "Count backward by 7's from 100 for 5 times and write those numbers down below.", imageOne: nil, imageTwo: nil)
+        TaskItem(title: "Task 1", question: "Here are some numbers, repeat them back in the same order.", imageOne: nil, imageTwo: nil),
+        TaskItem(title: "Task 2", question: "Here are some more numbers, repeat them back in the backward order.", imageOne: nil, imageTwo: nil),
+        TaskItem(title: "Task 3", question: "A sequence of numbers will be displayed. Tap the button 'Tap 1' each time you see the number 1. Do not select the button when you see a different number.", imageOne: nil, imageTwo: nil),
+        TaskItem(title: "Task 4", question: "Count backward by 7's from 100 for 5 times and write those numbers down below. Do not include 100.", imageOne: nil, imageTwo: nil)
     ]
     
     let tappingOneNumList = [6, 2, 1, 3, 7, 8, 1, 1, 9, 7, 6, 2, 1, 6, 1, 7, 4, 5, 1, 1, 1, 9, 1, 7, 9, 6, 1, 1, 2]
     let subtractionNumList = [93, 86, 79, 72, 65]
     @State private var selectedIndices: Set<Int> = []
     @State private var taskThreeIndex = 0
-    @State private var timer = Timer.publish(every: 3, on: .main, in: .common)
+    @State private var timer = Timer.publish(every: 5, on: .main, in: .common)
         .autoconnect()
     
     var body: some View {
@@ -105,9 +105,16 @@ struct AttentionView: View {
                         let task = tasks[questionIndex]
                         
                         VStack (spacing: 40) {
-                            Text(task.question)
-                                .subtitleTextStyle()
-                            
+                            if questionIndex == 0 {
+                                Text("Enter the words previously shown in the same order.")
+                                    .subtitleTextStyle()
+                            } else if questionIndex == 1 {
+                                Text("Enter the words previously shown in the backward order.")
+                                    .subtitleTextStyle()
+                            } else {
+                                Text(task.question)
+                                    .subtitleTextStyle()
+                            }
                             AnswerInputView(title: "Type your answer…", userInput: $manager.userInput) {
                                 manager.nextTask()
                             }
@@ -118,8 +125,8 @@ struct AttentionView: View {
                                 .subtitleTextStyle()
                                 .padding([.leading, .trailing], 50)
 
-                            Text("\(taskThreeIndex + 1)ᵗʰ Number: \(tappingOneNumList[taskThreeIndex])")
-                                .subtitleTextStyle()
+                            Text("\(tappingOneNumList[taskThreeIndex])")
+                                .titleTextStyle()
                                 .padding(50)
 
                             Button(action: {}) {

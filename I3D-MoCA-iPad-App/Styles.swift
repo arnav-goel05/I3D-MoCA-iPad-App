@@ -83,5 +83,6 @@ extension Image {
             .resizable()
             .aspectRatio(contentMode: .fit)
             .cornerRadius(20)
+            .frame(height: 200)
     }
 }
